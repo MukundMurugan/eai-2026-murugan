@@ -142,6 +142,10 @@ export function parseCustomers(csv: string): Map<string, string> {
     if (row.trim() === "") continue;
 
     const [id, name] = row.split(";");
+
+if (id === undefined || name === undefined) {
+  continue;
+}
     customers.set(id.trim(), name.trim());
   }
 
