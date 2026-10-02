@@ -1,0 +1,8 @@
+
+# Visual Studio cache
+.vs/
+**/.vs/
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
